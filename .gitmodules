@@ -1,0 +1,3 @@
+[submodule "MicFusionBridge"]
+	path = MicFusionBridge
+	url = https://github.com/Arpenaige/MicFusionBridge
