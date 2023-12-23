@@ -1,0 +1,1 @@
+First goal refactor: refactor  gui element(main menu) in the classes

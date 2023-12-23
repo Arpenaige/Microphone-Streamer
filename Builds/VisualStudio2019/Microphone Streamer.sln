@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microphone Streamer - Standalone Plugin", "Microphone Streamer_StandalonePlugin.vcxproj", "{BF0EE9C0-35B5-5535-EC9B-82B365457CAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857} = {AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microphone Streamer - VST3", "Microphone Streamer_VST3.vcxproj", "{D7711084-564D-BD8C-693C-73662E43CEB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857} = {AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}
+		{D55269ED-E594-542E-997A-69A7FE4F22AA} = {D55269ED-E594-542E-997A-69A7FE4F22AA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microphone Streamer - Shared Code", "Microphone Streamer_SharedCode.vcxproj", "{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microphone Streamer - VST3 Manifest Helper", "Microphone Streamer_VST3ManifestHelper.vcxproj", "{D55269ED-E594-542E-997A-69A7FE4F22AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7711084-564D-BD8C-693C-73662E43CEB5}.Release|x64.ActiveCfg = Release|x64
+		{D7711084-564D-BD8C-693C-73662E43CEB5}.Release|x64.Build.0 = Release|x64
+		{D7711084-564D-BD8C-693C-73662E43CEB5}.Debug|x64.ActiveCfg = Debug|x64
+		{D7711084-564D-BD8C-693C-73662E43CEB5}.Debug|x64.Build.0 = Debug|x64
+		{BF0EE9C0-35B5-5535-EC9B-82B365457CAB}.Release|x64.ActiveCfg = Release|x64
+		{BF0EE9C0-35B5-5535-EC9B-82B365457CAB}.Release|x64.Build.0 = Release|x64
+		{BF0EE9C0-35B5-5535-EC9B-82B365457CAB}.Debug|x64.ActiveCfg = Debug|x64
+		{BF0EE9C0-35B5-5535-EC9B-82B365457CAB}.Debug|x64.Build.0 = Debug|x64
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}.Release|x64.ActiveCfg = Release|x64
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}.Release|x64.Build.0 = Release|x64
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}.Debug|x64.ActiveCfg = Debug|x64
+		{AE5AE3CC-11BE-3250-5938-8A6ACE7D9857}.Debug|x64.Build.0 = Debug|x64
+		{D55269ED-E594-542E-997A-69A7FE4F22AA}.Release|x64.ActiveCfg = Release|x64
+		{D55269ED-E594-542E-997A-69A7FE4F22AA}.Release|x64.Build.0 = Release|x64
+		{D55269ED-E594-542E-997A-69A7FE4F22AA}.Debug|x64.ActiveCfg = Debug|x64
+		{D55269ED-E594-542E-997A-69A7FE4F22AA}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
